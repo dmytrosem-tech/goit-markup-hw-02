@@ -18,16 +18,19 @@
 
 .logo {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .logo-2nd-part {
   color: #212121;
+  text-decoration: none;
 }
 
 /* site nav*/
 
 .site-nav .link {
   color: #212121;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -39,6 +42,7 @@
 
 .authoriz-nav .item {
   color: #757575;
+  text-decoration: none;
 }
 
 .authoriz-nav .item:hover,
@@ -47,6 +51,40 @@
 }
 
 /* main section */
+
+.section-idea {
+  background-color: #2f303a;
+  width: 1600px;
+}
+
+.idea-h1 {
+  color: #ffffff;
+}
+
+.idea-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.principles-title {
+  color: #212121;
+}
+
+.our-work-title {
+  color: #212121;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-title {
+  color: #212121;
+}
+
+.workers-title {
+  color: #212121;
+}
 
 /* footer section*/
 .footer {

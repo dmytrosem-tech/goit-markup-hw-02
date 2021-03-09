@@ -18,6 +18,7 @@
 
 .logo {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .logo-2nd-part {
@@ -28,6 +29,7 @@
 
 .site-nav .link {
   color: #212121;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -39,6 +41,7 @@
 
 .authoriz-nav .item {
   color: #757575;
+  text-decoration: none;
 }
 
 .authoriz-nav .item:hover,
@@ -47,6 +50,11 @@
 }
 
 /* main section */
+
+.projects-works {
+  color: #757575;
+}
+
 /* nav-section */
 
 .portfolio-nav .item {
