@@ -25,30 +25,47 @@
 }
 
 /* site nav*/
-.site-nav .link1 {
-  color: #2196f3;
-}
-.site-nav .link2 {
+
+.site-nav .link {
   color: #212121;
 }
 
-.site-nav .link1:hover,
-.site-nav .link1:focus {
-  color: #000000;
-}
-
-.site-nav .link2:hover,
-.site-nav .link2:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
 
 /* authoriz-nav*/
-.authoriz-nav .mail {
+
+.authoriz-nav .item {
+  color: #757575;
+}
+
+.authoriz-nav .item:hover,
+.authoriz-nav .item:focus {
   color: #2196f3;
 }
 
-.authoriz-nav .phone {
-  color: #212121;
+/* main section */
+
+/* footer section*/
+.footer {
+  background-color: #2f303a;
+  color: #757575;
 }
 
-/* main section */
+.logo-2nd-part-footer {
+  color: #ffffff;
+}
+
+.footer-adress-text {
+  color: #ffffff;
+}
+
+.footer-adress .mail {
+  color: #757575;
+}
+
+.footer-adress .phone {
+  color: #757575;
+}

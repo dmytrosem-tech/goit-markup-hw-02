@@ -1,0 +1,82 @@
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+/* цвет основного текста #212121*/
+/* вторичные цвета текста #757575*/
+/* белый #FFFFFF */
+/* синий #2196F3 */
+
+/* акцент #2F303A*/
+
+/* header section*/
+
+.logo {
+  color: #2196f3;
+}
+
+.logo-2nd-part {
+  color: #212121;
+}
+
+/* site nav*/
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* authoriz-nav*/
+
+.authoriz-nav .item {
+  color: #757575;
+}
+
+.authoriz-nav .item:hover,
+.authoriz-nav .item:focus {
+  color: #2196f3;
+}
+
+/* main section */
+/* nav-section */
+
+.portfolio-nav .item {
+  color: #212121;
+}
+
+.portfolio-nav .item:hover,
+.portfolio-nav .item:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* footer section*/
+.footer {
+  background-color: #2f303a;
+  color: #757575;
+}
+
+.logo-2nd-part-footer {
+  color: #ffffff;
+}
+
+.footer-adress-text {
+  color: #ffffff;
+}
+
+.footer-adress .mail {
+  color: #757575;
+}
+
+.footer-adress .phone {
+  color: #757575;
+}
