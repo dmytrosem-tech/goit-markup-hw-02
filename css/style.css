@@ -1,5 +1,5 @@
 .page {
-  font-family: Roboto;
+  font-family: Roboto; 
   background-color: #ffffff;
   color: #757575;
 }
@@ -7,6 +7,7 @@
 .list {
   list-style: none;
 }
+/* Header */
 
 .logo {
   color: #2196f3;
@@ -26,7 +27,7 @@
   line-height: 31px;
 }
 
-/* site nav*/
+/* site nav */
 
 .site-nav .link {
   color: #212121;
@@ -36,6 +37,10 @@
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+}
+
+.site-nav .current {
+  color:  #2196f3;
 }
 
 /* authoriz-nav*/
@@ -50,7 +55,7 @@
   color: #2196f3;
 }
 /* Main page */
-/* main section */
+/* Главная часть */
 
 .main-idea {
   width: 1600px;
@@ -63,10 +68,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  
 }
 
 .main-button {
