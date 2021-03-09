@@ -7,15 +7,6 @@
   list-style: none;
 }
 
-/* цвет основного текста #212121*/
-/* вторичные цвета текста #757575*/
-/* белый #FFFFFF */
-/* синий #2196F3 */
-
-/* акцент #2F303A*/
-
-/* header section*/
-
 .logo {
   color: #2196f3;
   text-decoration: none;
@@ -49,7 +40,7 @@
 .authoriz-nav .item:focus {
   color: #2196f3;
 }
-
+/* Main page */
 /* main section */
 
 .section-idea {
@@ -84,6 +75,25 @@
 
 .workers-title {
   color: #212121;
+}
+
+/* Portfolio */
+/* nav-section */
+
+.portfolio-nav .item {
+  color: #212121;
+}
+
+.portfolio-nav .item:hover,
+.portfolio-nav .item:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* main section */
+
+.projects-works {
+  color: #757575;
 }
 
 /* footer section*/
