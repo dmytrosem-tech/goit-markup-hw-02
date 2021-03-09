@@ -1,4 +1,5 @@
 .page {
+  font-family: Roboto;
   background-color: #ffffff;
   color: #757575;
 }
@@ -10,11 +11,19 @@
 .logo {
   color: #2196f3;
   text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .logo-2nd-part {
   color: #212121;
   text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 /* site nav*/
@@ -43,17 +52,27 @@
 /* Main page */
 /* main section */
 
-.section-idea {
-  background-color: #2f303a;
+.main-idea {
   width: 1600px;
+  height: 600px;
+  background: #2f303a;
 }
 
-.idea-h1 {
+.main-title {
   color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.idea-button {
-  background-color: #2196f3;
+.main-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
   color: #ffffff;
 }
 
@@ -88,12 +107,6 @@
 .portfolio-nav .item:hover {
   background-color: #2196f3;
   color: #ffffff;
-}
-
-/* main section */
-
-.projects-works {
-  color: #757575;
 }
 
 /* footer section*/
