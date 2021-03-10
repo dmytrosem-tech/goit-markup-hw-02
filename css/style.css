@@ -1,3 +1,10 @@
+:root {
+  --title-text-color: #212121;
+  --main-text-color: #757575;
+  --alternative-text-color: #2196f3;
+  --white-words: #ffffff;
+}
+
 .page {
   font-family: Roboto;
   background-color: #ffffff;
@@ -8,12 +15,27 @@
   list-style: none;
 }
 
-:root {
-  --title-text-color: #212121;
-  --main-text-color: #757575;
-  --alternative-text-color: #2196f3;
-  --white-words: #ffffff;
+/* Buttons */
+
+.button {
+  color: var(--title-text-color);
+  cursor: pointer;
 }
+
+.button:hover,
+.button:hover {
+  background-color: var(--alternative-text-color);
+  color: var(--white-words);
+}
+
+.button .hero {
+  width: 200px;
+  height: 50px;
+  background: var(--alternative-text-color);
+  color: var(--white-words);
+  cursor: pointer;
+}
+
 /* Header */
 
 .logo {
@@ -64,32 +86,24 @@
 /* Main page */
 /* Главная часть */
 
-.main-idea {
+.section-hero {
   width: 1600px;
   height: 600px;
   background: #2f303a;
 }
 
-.main-title {
+.section-hero .title {
   color: var(--white-words);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
 }
 
-.main-button {
-  width: 200px;
-  height: 50px;
-  background: var(--alternative-text-color);
-  color: var(--white-words);
-  cursor: pointer;
-}
-
-.principles-title {
+.principles .title {
   color: var(--title-text-color);
 }
 
-.our-work-title {
+.our-work .title {
   color: var(--title-text-color);
 }
 
@@ -97,7 +111,7 @@
   background-color: #f5f4fa;
 }
 
-.our-team-title {
+.our-team .title {
   color: var(--title-text-color);
 }
 
@@ -107,17 +121,6 @@
 
 /* Portfolio */
 /* nav-section */
-
-.portfolio-nav .button {
-  color: var(--title-text-color);
-  cursor: pointer;
-}
-
-.portfolio-nav .button:hover,
-.portfolio-nav .button:hover {
-  background-color: var(--alternative-text-color);
-  color: var(--white-words);
-}
 
 /* footer section*/
 .footer {
