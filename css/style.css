@@ -1,5 +1,5 @@
 .page {
-  font-family: Roboto; 
+  font-family: Roboto;
   background-color: #ffffff;
   color: #757575;
 }
@@ -7,10 +7,17 @@
 .list {
   list-style: none;
 }
+
+:root {
+  --title-text-color: #212121;
+  --main-text-color: #757575;
+  --alternative-text-color: #2196f3;
+  --white-words: #ffffff;
+}
 /* Header */
 
 .logo {
-  color: #2196f3;
+  color: var(--alternative-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: bold;
@@ -19,7 +26,7 @@
 }
 
 .logo-2nd-part {
-  color: #212121;
+  color: var(--title-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: bold;
@@ -30,29 +37,29 @@
 /* site nav */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--alternative-text-color);
 }
 
 .site-nav .current {
-  color:  #2196f3;
+  color: var(--alternative-text-color);
 }
 
 /* authoriz-nav*/
 
 .authoriz-nav .item {
-  color: #757575;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 
 .authoriz-nav .item:hover,
 .authoriz-nav .item:focus {
-  color: #2196f3;
+  color: var(--alternative-text-color);
 }
 /* Main page */
 /* Главная часть */
@@ -64,26 +71,26 @@
 }
 
 .main-title {
-  color: #ffffff;
+  color: var(--white-words);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  
 }
 
 .main-button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--alternative-text-color);
+  color: var(--white-words);
+  cursor: pointer;
 }
 
 .principles-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .our-work-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .our-team {
@@ -91,44 +98,45 @@
 }
 
 .our-team-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .workers-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* Portfolio */
 /* nav-section */
 
-.portfolio-nav .item {
-  color: #212121;
+.portfolio-nav .button {
+  color: var(--title-text-color);
+  cursor: pointer;
 }
 
-.portfolio-nav .item:hover,
-.portfolio-nav .item:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+.portfolio-nav .button:hover,
+.portfolio-nav .button:hover {
+  background-color: var(--alternative-text-color);
+  color: var(--white-words);
 }
 
 /* footer section*/
 .footer {
   background-color: #2f303a;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .logo-2nd-part-footer {
-  color: #ffffff;
+  color: var(--white-words);
 }
 
 .footer-adress-text {
-  color: #ffffff;
+  color: var(--white-words);
 }
 
 .footer-adress .mail {
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .footer-adress .phone {
-  color: #757575;
+  color: var(--main-text-color);
 }
